@@ -21,7 +21,7 @@ source.include_patterns = assets/*,netease_auth_server/*
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,asyncio,cryptography,requests,urllib3,chardet,idna,cffi,pycparser
+requirements = python3,kivy,asyncio,cryptography,requests,urllib3,chardet,idna,cffi,pycparser,pycryptodome
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
