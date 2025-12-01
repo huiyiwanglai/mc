@@ -9,7 +9,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # 关键修改：使用 Ubuntu 22.04，避免 24.04 的编译工具兼容性问题
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v4
@@ -28,17 +29,17 @@ jobs:
       - name: Install Buildozer and dependencies
         run: |
           sudo apt-get update
+          # Ubuntu 22.04 支持 libtinfo5，这对构建很重要
           sudo apt-get install -y \
             git zip unzip autoconf libtool pkg-config \
             zlib1g-dev libncurses-dev libncursesw5-dev \
-            cmake libffi-dev libssl-dev
+            libtinfo5 cmake libffi-dev libssl-dev
           pip install --upgrade pip
           pip install buildozer cython==0.29.36
 
       - name: Build with Buildozer
         run: |
           cd mc_bot_project
-          # yes 命令用于自动同意 Android SDK 的许可协议
           yes | buildozer android debug
 
       - name: Upload artifacts
