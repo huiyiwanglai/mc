@@ -21,6 +21,10 @@ try:
     from netease_auth_server.client import NeteaseClient
 except ImportError:
     NeteaseClient = None
+    logging.warning("无法导入 netease_auth_server.client，网易验证功能将不可用")
+except Exception as e:
+    NeteaseClient = None
+    logging.error(f"导入 netease_auth_server.client 时发生错误: {e}")
 
 class BotClient:
     def __init__(self, username, access_token, selected_profile, manager):
