@@ -9,6 +9,9 @@ package.name = mcbot
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
 
+# (str) Version of your application
+version = 1.0
+
 # (str) Source code where the main.py live
 source.dir = .
 
