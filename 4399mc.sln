@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codexus.OpenSDK", "Codexus.OpenSDK", "{22B9A699-7955-6514-288A-D2F025E8C6B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codexus.ExampleConsole", "Codexus.OpenSDK\Codexus.ExampleConsole\Codexus.ExampleConsole.csproj", "{73BC807C-0EAB-C6D9-5591-09DF07B97669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codexus.ExampleMod", "Codexus.OpenSDK\Codexus.ExampleMod\Codexus.ExampleMod.csproj", "{C60A3758-C9F1-8DBF-AB0E-BC66F58C744A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codexus.ModHost", "Codexus.OpenSDK\Codexus.ModHost\Codexus.ModHost.csproj", "{D91C4A44-9F73-E0C2-B8B0-84B2113E200A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codexus.ModSDK", "Codexus.OpenSDK\Codexus.ModSDK\Codexus.ModSDK.csproj", "{112F535E-4D0C-0FD1-1C2D-98DF56A73BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codexus.OpenSDK", "Codexus.OpenSDK\Codexus.OpenSDK\Codexus.OpenSDK.csproj", "{26A7992A-F01F-385A-B697-AD5D7B429668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codexus.OpenTransport", "Codexus.OpenSDK\Codexus.OpenTransport\Codexus.OpenTransport.csproj", "{53D61889-E410-0399-1FBD-602108BF9B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73BC807C-0EAB-C6D9-5591-09DF07B97669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BC807C-0EAB-C6D9-5591-09DF07B97669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BC807C-0EAB-C6D9-5591-09DF07B97669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BC807C-0EAB-C6D9-5591-09DF07B97669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60A3758-C9F1-8DBF-AB0E-BC66F58C744A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60A3758-C9F1-8DBF-AB0E-BC66F58C744A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60A3758-C9F1-8DBF-AB0E-BC66F58C744A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60A3758-C9F1-8DBF-AB0E-BC66F58C744A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91C4A44-9F73-E0C2-B8B0-84B2113E200A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91C4A44-9F73-E0C2-B8B0-84B2113E200A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91C4A44-9F73-E0C2-B8B0-84B2113E200A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91C4A44-9F73-E0C2-B8B0-84B2113E200A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112F535E-4D0C-0FD1-1C2D-98DF56A73BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112F535E-4D0C-0FD1-1C2D-98DF56A73BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112F535E-4D0C-0FD1-1C2D-98DF56A73BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112F535E-4D0C-0FD1-1C2D-98DF56A73BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A7992A-F01F-385A-B697-AD5D7B429668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A7992A-F01F-385A-B697-AD5D7B429668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A7992A-F01F-385A-B697-AD5D7B429668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A7992A-F01F-385A-B697-AD5D7B429668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D61889-E410-0399-1FBD-602108BF9B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D61889-E410-0399-1FBD-602108BF9B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D61889-E410-0399-1FBD-602108BF9B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D61889-E410-0399-1FBD-602108BF9B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73BC807C-0EAB-C6D9-5591-09DF07B97669} = {22B9A699-7955-6514-288A-D2F025E8C6B4}
+		{C60A3758-C9F1-8DBF-AB0E-BC66F58C744A} = {22B9A699-7955-6514-288A-D2F025E8C6B4}
+		{D91C4A44-9F73-E0C2-B8B0-84B2113E200A} = {22B9A699-7955-6514-288A-D2F025E8C6B4}
+		{112F535E-4D0C-0FD1-1C2D-98DF56A73BA2} = {22B9A699-7955-6514-288A-D2F025E8C6B4}
+		{26A7992A-F01F-385A-B697-AD5D7B429668} = {22B9A699-7955-6514-288A-D2F025E8C6B4}
+		{53D61889-E410-0399-1FBD-602108BF9B56} = {22B9A699-7955-6514-288A-D2F025E8C6B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1197DF1-1FA0-458B-9584-928408C93E23}
+	EndGlobalSection
+EndGlobal
